@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('integrate') {
+        stage('integrate new changes') {
             steps {
                 echo 'integrating new chnges'
             }
